@@ -12,7 +12,7 @@ public class Main {
 	public static ArrayList<Pedido> pedidos=new ArrayList<Pedido>();
 	public static ArrayList<Cliente> clientes=new ArrayList<Cliente>();
 	public static ArrayList<Produto> produtos=new ArrayList<Produto>();
-	
+	public static int x=0;
 	
 	public static List<Pedido> filtrarPedidos(int codigoPedido){
 		return  pedidos.stream()

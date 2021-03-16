@@ -5,6 +5,7 @@ public class Produto {
 	private String nome;	
 	private double preco;
 	private boolean status;
+	private int quantidade;
 	public Produto(int codigo,String nome, double preco) {
 		 
 		this.nome = nome;
@@ -29,6 +30,19 @@ public class Produto {
 	public void setCodigo(int codigo) {
 		this.codigo = codigo;
 	}
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	
 	
 	
 	
